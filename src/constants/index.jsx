@@ -1,23 +1,48 @@
+import feature1 from "/public/images/feature-1.png";
+import feature2 from "/public/images/feature-2.png";
+import details1 from "/public/images/detail-1.png";
+import details2 from "/public/images/detail-2.png";
+import details3 from "/public/images/detail-3.png";
+import details4 from "/public/images/detail-4.png";
+import plan1 from "/public/images/plan-1.png";
+import plan2 from "/public/images/plan-2.png";
+import plan3 from "/public/images/plan-3.png";
+import x from "/public/images/socials/x.svg";
+import threads from "/public/images/socials/threads.svg";
+import instagram from "/public/images/socials/instagram.svg";
+import discord from "/public/images/socials/discord.svg";
+import avtar1 from "/public/images/testimonials/jessica-saunders.png";
+import avtar2 from "/public/images/testimonials/mark-erixon.png";
+import avtar3 from "/public/images/testimonials/melanie-hurst.png";
+import avtar4 from "/public/images/testimonials/alicia-barker.png";
+import avtar5 from "/public/images/testimonials/becky-snider.png";
+import avtar6 from "/public/images/testimonials/jim-bradley.png";
+import url1 from "/public/images/logos/afterpay.svg";
+import url2 from "/public/images/logos/amplitude.svg";
+import url3 from "/public/images/logos/sonos.svg";
+import url4 from "/public/images/logos/maze.svg";
+import url5 from "/public/images/logos/drips.svg";
+
 export const features = [
   {
     id: "0",
-    icon: "/images/feature-1.png",
+    icon: feature1,
     caption: "Easy integration",
     title: "Work smarter not harder",
     text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
     button: {
-      icon: "/images/magictouch.svg",
+      icon: "/public/images/magictouch.svg",
       title: "Watch the demo",
     },
   },
   {
     id: "1",
-    icon: "/images/feature-2.png",
+    icon: feature2,
     caption: "Secure & trustworthy",
     title: "Sleep easy, we got your back",
     text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
     button: {
-      icon: "/images/docs.svg",
+      icon: "/public/images/docs.svg",
       title: "Read the docs",
     },
   },
@@ -26,83 +51,83 @@ export const features = [
 export const details = [
   {
     id: "0",
-    icon: "/images/detail-1.png",
+    icon: details1,
     title: "AI automated video editing",
   },
   {
     id: "1",
-    icon: "/images/detail-2.png",
+    icon: details2,
     title: "Collaborate with your team",
   },
   {
     id: "2",
-    icon: "/images/detail-3.png",
+    icon: details3,
     title: "Ultra fast cloud-engine",
   },
   {
     id: "3",
-    icon: "/images/detail-4.png",
+    icon: details4,
     title: "24 / 7 Customer support",
   },
 ];
 
 export const faq = [
   {
-    id: "0",
+    id: "1",
     question: "How easy is it to setup Xora?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "1",
+    id: "2",
     question: "Can I integrate Xora with other platforms?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "2",
+    id: "3",
     question: "How often do you add new content?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "3",
+    id: "4",
     question: "What your refund policy?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "4",
+    id: "5",
     question: "Do you have corporate plans?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "5",
+    id: "6",
     question: "What happens when I’m out of storage?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "6",
+    id: "7",
     question: "Can I upgrade my plan?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "7",
+    id: "8",
     question: "How do I invite my team?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "8",
+    id: "9",
     question: "Do you offer training for individuals and teams?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
-    id: "9",
+    id: "10",
     question: "I’m locked out of my account what do I do?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
@@ -122,8 +147,8 @@ export const plans = [
       "5 projects",
       "24/7 support",
     ],
-    icon: "/images/circle.svg",
-    logo: "/images/plan-1.png",
+    icon: "/public/images/circle.svg",
+    logo: plan1,
   },
   {
     id: "1",
@@ -137,8 +162,8 @@ export const plans = [
       "Unlimited projects",
       "Analytics",
     ],
-    icon: "/images/triangle.svg",
-    logo: "/images/plan-2.png",
+    icon: "/public/images/triangle.svg",
+    logo: plan2,
   },
   {
     id: "2",
@@ -152,8 +177,8 @@ export const plans = [
       "50% off per member",
       "Real-time collaboration",
     ],
-    icon: "/images/hexagon.svg",
-    logo: "/images/plan-3.png",
+    icon: "/public/images/hexagon.svg",
+    logo: plan3,
   },
 ];
 
@@ -162,7 +187,7 @@ export const testimonials = [
     id: "0",
     name: "Jessica Saunders",
     role: "Globalnomads",
-    avatarUrl: "/images/testimonials/jessica-saunders.png",
+    avatarUrl: avtar1,
     comment:
       "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
@@ -170,7 +195,7 @@ export const testimonials = [
     id: "1",
     name: "Mark Erixon",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
+    avatarUrl: avtar2,
     comment:
       "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
   },
@@ -178,7 +203,7 @@ export const testimonials = [
     id: "2",
     name: "Melanie Hurst",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/melanie-hurst.png",
+    avatarUrl: avtar3,
     comment:
       "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
   },
@@ -186,7 +211,7 @@ export const testimonials = [
     id: "3",
     name: "Alicia Barker",
     role: "Cyberleap",
-    avatarUrl: "/images/testimonials/alicia-barker.png",
+    avatarUrl: avtar4,
     comment:
       "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
   },
@@ -194,7 +219,7 @@ export const testimonials = [
     id: "4",
     name: "Becky Snider",
     role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
+    avatarUrl: avtar5,
     comment:
       "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
   },
@@ -202,7 +227,7 @@ export const testimonials = [
     id: "5",
     name: "Jim Bradley",
     role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
+    avatarUrl: avtar6,
     comment:
       "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
   },
@@ -212,35 +237,35 @@ export const logos = [
   {
     id: "0",
     title: "Afterpay",
-    url: "/images/logos/afterpay.svg",
+    url: url1,
     width: 156,
     height: 48,
   },
   {
     id: "1",
     title: "Amplitude",
-    url: "/images/logos/amplitude.svg",
+    url: url2,
     width: 194,
     height: 48,
   },
   {
     id: "2",
     title: "Sonos",
-    url: "/images/logos/sonos.svg",
+    url: url3,
     width: 115,
     height: 48,
   },
   {
     id: "3",
     title: "Maze",
-    url: "/images/logos/maze.svg",
+    url: url4,
     width: 142,
     height: 48,
   },
   {
     id: "4",
     title: "Drips",
-    url: "/images/logos/drips.svg",
+    url: url5,
     width: 77,
     height: 48,
   },
@@ -405,25 +430,25 @@ export const socials = [
   {
     id: "0",
     title: "x",
-    icon: "/images/socials/x.svg",
+    icon: x,
     url: "#",
   },
   {
     id: "1",
     title: "Threads",
-    icon: "/images/socials/threads.svg",
+    icon: threads,
     url: "#",
   },
   {
     id: "2",
     title: "Instagram",
-    icon: "/images/socials/instagram.svg",
+    icon: instagram,
     url: "#",
   },
   {
     id: "3",
     title: "Discord",
-    icon: "/images/socials/discord.svg",
+    icon: discord,
     url: "#",
   },
 ];

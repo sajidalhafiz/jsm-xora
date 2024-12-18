@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import { Marker } from "./Marker.jsx";
+import icon from "/public/images/zap.svg";
 
 const Button = ({
-  icon,
   children,
   href,
   containerClassName,
